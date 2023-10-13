@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Ficticio</title>
+    <style>
+    table td {
+        border: 1.5px solid black;
+    }
+</style>
+</head>
+<body>
+    <h1>Nate Gentile</h1>
+    <img src="nate-gentile.jpeg">
+    <div style="width: 99%;">
+    <p style="text-align: justify;">José Ignacio Gentile (Montevideo, Uruguay, 27 de julio de 1990), más conocido como Nate Gentile es un youtuber uruguayo con más de dos millones de suscriptores en su canal homónimo dedicado a la informática doméstica, especialmente al análisis y montaje de potentes equipos y componentes. Ha sido calificado por la revista Forbes como uno de los cien youtubers más influyentes de habla hispana y por los organizadores de la Euskal Encounter como una de sus estrellas invitadas y el "mayor experto en modding".</p>
+    </div>
+    <h3>Destacados</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=CbLIbxw6sDI&list=PL3ei_Xb7-ic6gTedFs8wKIo7M2Ml7WEPn&index=29">¡EL PC Gaming dentro de un Maletín!</a></li>
+        <li><a href="https://www.youtube.com/watch?v=YBNr69vrscw">Entiende Bitcoin y Ethereum</a></li>
+    </ul>
+    <br>
+    <h3>Logros actuales</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Proyectos</th>
+                <th>Año</th>
+                <th>Vigencia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mastermind Academy</td>
+                <td>2019</td>
+                <td>Actualidad</td>
+            </tr>
+            <tr>
+                <td>Nate Gentile - Youtube Channel</td>
+                <td>2016</td>
+                <td>Actualidad</td>
+            </tr>
+            <tr>
+                <td>
+                    Asphalt 8: Airborne</td>
+                <td>2013</td>
+                <td>Actualidad</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="https://es.wikipedia.org/wiki/Nate_Gentile">Más información sobre Nate Gentile</a>
+    <h3>Por favor, ¿podrías contestar esta breve encuesta?</h3>
+    <form method="post">
+        <label>Email: <input type="text" name="email "></label>
+        <br><br>
+        <input type="radio" name="opcion" value="Si" id="Si">
+        <label for="Si">Si, por favor quiero recibir una infinidad de mails. </label>
+        <br>
+        <input type="radio" name="opcion" value="No" id="No">
+        <label for="No">No por favor, no me envíes una infinidad de mails. </label>
+        <br><br>
+        <p>¿Cómo supiste de nosotros?</p>
+        <label><input type="checkbox" id="cbox1" value="facebook_checkbox"> Facebook</label><br>
+        <label><input type="checkbox" id="cbox2" value="intagram_checkbox"> Instagram</label><br>
+        <label><input type="checkbox" id="cbox4" value="contacto_checkbox"> TikTok</label><br>
+        <label><input type="checkbox" id="cbox4" value="contacto_checkbox"> Un Contacto</label><br>
+        <br>
+        <p>Elige su plataforma favorita</p>
+        <select name="platform" id="platform">
+            <option value="YT">Youtube</option>
+            <option value="TW">Twitch</option>
+            <option value="MM">Mastermind</option>
+        </select>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
